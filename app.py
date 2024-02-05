@@ -1,7 +1,6 @@
-pip install -r requirements.txt
 import streamlit
-import pandas as pd  # Use 'pd' as an alias for pandas
-import altair as alt
+import pandas 
+import altair 
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
