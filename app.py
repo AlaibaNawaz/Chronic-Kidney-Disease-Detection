@@ -1,3 +1,13 @@
+import streamlit
+import pandas as pd  # Use 'pd' as an alias for pandas
+import altair as alt
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import accuracy_score, classification_report
+from sklearn.pipeline import Pipeline
 # Page title and navigation bar
 streamlit.title('Chronic Kidney Disease')
 # Sidebar navigation
