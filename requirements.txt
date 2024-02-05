@@ -1,12 +1,5 @@
 streamlit
 pandas
 altair
-scikit-learn
-sklearn.model_selection
-sklearn.linear_model
-sklearn.tree
-sklearn.neighbors
-sklearn.preprocessing
-sklearn.metrics
-sklearn.pipeline
+scikit-learn=1.4
 python==3.9
