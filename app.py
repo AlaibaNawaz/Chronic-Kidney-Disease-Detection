@@ -1,3 +1,4 @@
+pip install -r requirements.txt
 import streamlit
 import pandas as pd  # Use 'pd' as an alias for pandas
 import altair as alt
