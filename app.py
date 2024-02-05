@@ -1,15 +1,3 @@
-# Import necessary libraries
-import streamlit as st
-import pandas as pd
-import altair as alt
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LogisticRegression
-from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import StandardScaler
-from sklearn.metrics import confusion_matrix, classification_report, accuracy_score
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.neighbors import KNeighborsClassifier
-
 # Page title and navigation bar
 st.title('Chronic Kidney Disease')
 # Sidebar navigation
